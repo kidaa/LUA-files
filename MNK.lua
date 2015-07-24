@@ -59,7 +59,7 @@ function init_gear_sets()
     sets.precast.JA['Formless Strikes'] = {}
     sets.precast.JA['Mantra'] = {}
     sets.precast.JA['Chi Blast'] = {}
-    sets.precast.JA['Chakra'] = {body="Temple Cyclas",hands="Melee Gloves"}
+    sets.precast.JA['Chakra'] = {body="Temple Cyclas",hands="Melee Gloves", head="Genbu's kabuto"}
 
     -- Waltz set (chr and vit)
     sets.precast.Waltz = {}
@@ -80,7 +80,7 @@ function init_gear_sets()
        
     -- Weaponskill sets
     -- Default set for any weaponskill that isn't any more specifically defined
-    sets.precast.WS = {head="Antica band",neck="Fang necklace",
+    sets.precast.WS = {head="Melee crown",neck="Fang necklace",
         body="Scorpion harness +1",ring1="Flame ring",ring2="Flame Ring", ammo="Bibiki seashell", ear1="Intruder earring", ear2="Cassie earring", hands="Ochimusha Kote",
 		back="Amemet mantle +1", waist="Brown belt", legs="Byakko's haidate", feet="Sarutobi kyahan"}
     sets.precast.WSAcc = {}
@@ -418,4 +418,3 @@ function on_action_for_impetus(action)
     end
     
 end
-
