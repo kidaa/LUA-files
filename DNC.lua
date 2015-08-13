@@ -181,13 +181,13 @@ function init_gear_sets()
 
     -- Idle sets
 
-    sets.idle = {head="Empress Hairpin", neck="Chocobo Whistle", range="War Hoop", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Sniper's Ring +1", ring2="Sniper's Ring +1", back="Amemet Mantle +1",
+    sets.idle = {head="Empress Hairpin", neck="Chocobo Whistle", range="War Hoop", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas ring", ring2="Sniper's Ring +1", back="Amemet Mantle +1",
 					waist="Lycopodium sash", legs="Etoile tights", feet="Bounding Boots", hands="Etoile bangles", body="Rapparee Harness"}
 
-    sets.idle.Town = {head="Empress Hairpin", neck="Chocobo Whistle", range="War Hoop", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Sniper's Ring +1", ring2="Sniper's Ring +1", back="Amemet Mantle +1",
+    sets.idle.Town = {head="Empress Hairpin", neck="Chocobo Whistle", range="War Hoop", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas ring", ring2="Sniper's Ring +1", back="Amemet Mantle +1",
 					waist="Lycopodium sash", legs="Etoile tights", feet="Bounding Boots", hands="Etoile bangles", body="Rapparee Harness"}
     
-    sets.idle.Weak = {head="Empress Hairpin", neck="Chocobo Whistle", range="War Hoop", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Sniper's Ring +1", ring2="Sniper's Ring +1", back="Amemet Mantle +1",
+    sets.idle.Weak = {head="Empress Hairpin", neck="Chocobo Whistle", range="War Hoop", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas ring", ring2="Sniper's Ring +1", back="Amemet Mantle +1",
 					waist="Lycopodium sash", legs="Etoile tights", feet="Bounding Boots", hands="Etoile bangles", body="Rapparee Harness"}
     
     -- Defense sets
@@ -208,7 +208,7 @@ function init_gear_sets()
     -- EG: sets.engaged.Dagger.Accuracy.Evasion
     
     -- Normal melee group
-    sets.engaged = {head="Walahra Turban", neck="Peacock Amulet", range="War Hoop", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Sniper's Ring +1", ring2="Sniper's Ring +1", back="Amemet Mantle +1",
+    sets.engaged = {head="Walahra Turban", neck="Peacock Amulet", range="War Hoop", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas ring", ring2="Sniper's Ring +1", back="Amemet Mantle +1",
 					waist="Velocious Belt", legs="Etoile tights", feet="Dusk Ledelsens", hands="Dusk Gloves", body="Rapparee Harness"}
 
     sets.engaged.Fodder = {}
@@ -488,4 +488,3 @@ function select_default_macro_book()
         set_macro_page(5, 20)
     end
 end
-
