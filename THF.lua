@@ -201,31 +201,31 @@ function init_gear_sets()
 
     -- Resting sets
     sets.resting = {main="Harpe", Sub="Thief's Knife", ammo="Bomb core", neck="Chocobo Whistle", hands="Assassin's Armlets", feet="Trotter Boots", head="Empress Hairpin", body="Rapparee Harness",
-					legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Lycopodium sash", range="Comet tail"}
+					legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Lycopodium sash", range="Comet tail"}
 
 
     -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 
     sets.idle = {main="Harpe", Sub="Thief's Knife", ammo="Bomb core", neck="Chocobo Whistle", hands="Assassin's Armlets", feet="Trotter Boots", head="Empress Hairpin", body="Rapparee Harness",
-				legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Lycopodium sash"}
+				legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Lycopodium sash"}
 
     sets.idle.Town = {main="Harpe", Sub="Thief's Knife", ammo="Bomb core", neck="Chocobo Whistle", hands="Assassin's Armlets", feet="Trotter Boots", head="Empress Hairpin", body="Rapparee Harness",
-					legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Lycopodium sash"}
+					legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Lycopodium sash"}
 
     sets.idle.Weak = {main="Harpe", Sub="Thief's Knife", ammo="Bomb core", neck="Chocobo Whistle", hands="Assassin's Armlets", feet="Trotter Boots", head="Empress Hairpin", body="Rapparee Harness",
-					legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Lycopodium sash"}
+					legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Lycopodium sash"}
 
 
     -- Defense sets
 
     sets.defense.Evasion = {main="Harpe", Sub="Thief's Knife", ammo="Bomb core", neck="Peacock Amulet", hands="Assassin's Armlets", feet="Bounding Boots", head="Empress Hairpin", body="Rapparee Harness",
-							legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Cassie Earring", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Velocious Belt"}
+							legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Cassie Earring", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Velocious Belt"}
 
     sets.defense.PDT = {main="Harpe", Sub="Thief's Knife", ammo="Bomb core", neck="Peacock Amulet", hands="Assassin's Armlets", feet="Bounding Boots", head="Empress Hairpin", body="Rapparee Harness",
-						legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Cassie Earring", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Velocious Belt"}
+						legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Cassie Earring", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Velocious Belt"}
 	
 	sets.defense.MDT = {main="Harpe", Sub="Thief's Knife", ammo="Bomb core", neck="Peacock Amulet", hands="Assassin's Armlets", feet="Bounding Boots", head="Empress Hairpin", body="Rapparee Harness",
-						legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Cassie Earring", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Velocious Belt"}
+						legs="Bravo's Subligar", ear1="Intruder Earring", ear2="Cassie Earring", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle", waist="Velocious Belt"}
 
 
     --------------------------------------
@@ -233,7 +233,7 @@ function init_gear_sets()
     --------------------------------------
 
     -- Normal melee group
-    sets.engaged = {head="Walahra Turban", neck="Peacock Amulet", ear1="Intruder Earring", ear2="Cassie Earring", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle",
+    sets.engaged = {head="Walahra Turban", neck="Peacock Amulet", ear1="Intruder Earring", ear2="Cassie Earring", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle",
 					waist="Velocious Belt", legs="Bravo's Subligar", feet="Dusk Ledelsens", hands="Assassin's Armlets", body="Rapparee Harness", ammo="Bomb core"}
     sets.engaged.Acc = {}
         
@@ -241,15 +241,15 @@ function init_gear_sets()
     sets.engaged.Mod = {}
 
     -- Mod set for trivial mobs (Thaumas)
-    sets.engaged.Mod2 = {head="Walahra Turban", neck="Peacock Amulet", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle",
+    sets.engaged.Mod2 = {head="Walahra Turban", neck="Peacock Amulet", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle",
 						waist="Velocious Belt", legs="Bravo's Subligar", feet="Dusk Ledelsens", hands="Dusk Gloves", body="Rapparee Harness"}
-    sets.engaged.Evasion = {head="Walahra Turban", neck="Peacock Amulet", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle",
+    sets.engaged.Evasion = {head="Walahra Turban", neck="Peacock Amulet", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle",
 						waist="Velocious Belt", legs="Bravo's Subligar", feet="Dusk Ledelsens", hands="Dusk Gloves", body="Rapparee Harness"}
-    sets.engaged.Acc.Evasion = {head="Walahra Turban", neck="Peacock Amulet", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle",
+    sets.engaged.Acc.Evasion = {head="Walahra Turban", neck="Peacock Amulet", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle",
 						waist="Velocious Belt", legs="Bravo's Subligar", feet="Dusk Ledelsens", hands="Dusk Gloves", body="Rapparee Harness"}
-    sets.engaged.PDT = {head="Walahra Turban", neck="Peacock Amulet", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle",
+    sets.engaged.PDT = {head="Walahra Turban", neck="Peacock Amulet", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle",
 						waist="Velocious Belt", legs="Bravo's Subligar", feet="Dusk Ledelsens", hands="Dusk Gloves", body="Rapparee Harness"}
-    sets.engaged.Acc.PDT = {head="Walahra Turban", neck="Peacock Amulet", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Ecphoria Ring", ring2="Flame Ring", back="Cerberus Mantle",
+    sets.engaged.Acc.PDT = {head="Walahra Turban", neck="Peacock Amulet", ear1="Intruder Earring", ear2="Suppanomimi", ring1="Rajas Ring", ring2="Flame Ring", back="Cerberus Mantle",
 						waist="Velocious Belt", legs="Bravo's Subligar", feet="Dusk Ledelsens", hands="Dusk Gloves", body="Rapparee Harness"}
 
 end
